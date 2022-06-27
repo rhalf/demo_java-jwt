@@ -13,6 +13,7 @@ import org.springframework.security.crypto.password.PasswordEncoder;
 import com.example.demo.model.Role;
 import com.example.demo.model.User;
 import com.example.demo.service.UserService;
+import springfox.documentation.swagger2.annotations.EnableSwagger2;
 
 @SpringBootApplication
 public class DemoApplication  {
